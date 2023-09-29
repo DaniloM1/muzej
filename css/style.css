@@ -1,0 +1,68 @@
+#mainNavigation a {
+    font-family: 'Cabin', sans-serif;
+    font-size:15px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    text-shadow:1px 1px 2px rgba(0,0,0,0.4)
+  }
+  
+  .dropdown-menu {
+    background:#03727d
+  }
+  a.dropdown-toggle {
+    color:#dfdfdf !important
+  }
+  a.dropdown-item:hover {
+    color:#03727d !important
+  }
+  .nav-item a{
+    color:#dfdfdf;
+  }
+  .nav-item a:hover {
+    color: #21cddade;
+    border-bottom: 1px solid;
+    transition: 0.5s;
+  }
+  .nav-item .active {
+    color: #21cddade;
+    border-bottom: 1px solid;
+    transition: 0.5s;
+  }
+  .nav-item{
+    min-width:12vw;
+  }
+  #mainNavigation {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:123;
+    padding-bottom:50px;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  }
+  #navbarNavDropdown.collapsing .navbar-nav,
+  #navbarNavDropdown.show .navbar-nav{
+    background:#63636377;
+    padding:12px;
+  }
+  .bnr{
+   
+    margin-bottom: 60px;
+  }
+  .smanjiti{
+    width: 370px;
+    height: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: 150px ;
+  width: 100px; 
+  padding:5px;
+}
